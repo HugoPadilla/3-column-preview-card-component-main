@@ -1,0 +1,135 @@
+/* background, headings, buttons */
+/* paragraphs */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.wrapper {
+  min-height: 100vh;
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.card-container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 5.4em 1.35em;
+  border-radius: .5em;
+  overflow: hidden;
+}
+
+/* Card  */
+.card {
+  padding: 3em;
+}
+
+.card__icon {
+  width: 4em;
+}
+
+.card__title {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  margin-top: .8em;
+  margin-bottom: .7em;
+  letter-spacing: .02em;
+  color: #f2f2f2;
+}
+
+.card__desc {
+  font-size: 15px;
+  line-height: 1.7em;
+  margin-bottom: 1.6em;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* Color card */
+.card--orange {
+  background-color: #e38826;
+}
+
+.card--dark-cian {
+  background-color: #006970;
+}
+
+.card--very-dark-cian {
+  background-color: #004241;
+}
+
+/* Button */
+.button {
+  border: none;
+  background-color: #f2f2f2;
+  font-weight: bold;
+  border-radius: 3em;
+  letter-spacing: .04em;
+  padding: 1.2em 2.66em;
+}
+
+.button:hover {
+  border: 2px solid #f2f2f2;
+  background-color: transparent;
+  color: #f2f2f2;
+}
+
+/* Color button */
+.button--orange {
+  color: #e38826;
+}
+
+.button--dark-cian {
+  color: #006970;
+}
+
+.button--very-dark-cian {
+  color: #004241;
+}
+
+/* Atribucion */
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media only screen and (min-width: 900px) {
+  .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    padding: 3em;
+  }
+  .card-container {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: auto;
+  }
+  /* Card  */
+  .card {
+    max-width: 19.19em;
+  }
+  /* Button */
+  .button {
+    padding: 1.2em 2.5em;
+    margin-top: 4.3em;
+  }
+}
+/*# sourceMappingURL=main.css.map */
